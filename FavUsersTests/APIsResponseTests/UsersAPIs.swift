@@ -15,9 +15,9 @@ class UsersAPIs: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
+    //MARK:- Test User Object Mapping
     func testUsersJSONMapping() throws{
         let bundle = Bundle.init(for: type(of: self))
-        
         if let url = bundle.url(forResource: "User", withExtension: "json"){
             let json = try Data.init(contentsOf: url)
             do{

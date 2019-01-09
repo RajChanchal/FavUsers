@@ -12,7 +12,6 @@
 		2732F7C321E47F6D005D7AED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2732F7C121E47F6D005D7AED /* Main.storyboard */; };
 		2732F7C521E47F70005D7AED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2732F7C421E47F70005D7AED /* Assets.xcassets */; };
 		2732F7C821E47F70005D7AED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2732F7C621E47F70005D7AED /* LaunchScreen.storyboard */; };
-		2732F7D321E47F71005D7AED /* FavUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732F7D221E47F71005D7AED /* FavUsersTests.swift */; };
 		2732F7F021E486E4005D7AED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732F7EF21E486E4005D7AED /* User.swift */; };
 		2732F7F421E489DB005D7AED /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732F7F321E489DB005D7AED /* HomeViewController.swift */; };
 		2732F7F621E489ED005D7AED /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2732F7F521E489ED005D7AED /* HomeViewModel.swift */; };
@@ -56,7 +55,6 @@
 		2732F7C721E47F70005D7AED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2732F7C921E47F70005D7AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2732F7CE21E47F71005D7AED /* FavUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FavUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2732F7D221E47F71005D7AED /* FavUsersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavUsersTests.swift; sourceTree = "<group>"; };
 		2732F7D421E47F71005D7AED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2732F7EF21E486E4005D7AED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		2732F7F321E489DB005D7AED /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -157,7 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				2732F7FC21E5E167005D7AED /* APIsResponseTests */,
-				2732F7D221E47F71005D7AED /* FavUsersTests.swift */,
 				2732F7D421E47F71005D7AED /* Info.plist */,
 			);
 			path = FavUsersTests;
@@ -486,7 +483,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2732F7FF21E5E1CF005D7AED /* UsersAPIs.swift in Sources */,
-				2732F7D321E47F71005D7AED /* FavUsersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
