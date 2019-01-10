@@ -9,11 +9,11 @@ The network layer's ```APIClient.swift``` contains minimulistic code and Swift's
 ## JSON Model Mapping:
 The code uses Swift 4's Codable protocol for mapping JSON data to model in minimum lines of code
 
-##Test Cases
+## Test Cases
 The current code contain one test that validates JSON mapping of User object with a mock data file named ```User.json```.
 The test case can be improved by downloading Users data and storing in the mock file once a day to reduce the cost of hitting the API repeatatively each time the test is run.
 
-##Improvements:
+## Improvements:
 Reactive programming libraries like **RxSwift** and test libraries like **Nimble** and **Quick** can be used but I didn't feel much need because it was a small task. The decision would have been a tradeoff between project size and advantage.
 
 
